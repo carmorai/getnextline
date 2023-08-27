@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: theonewhoknew <theonewhoknew@student.42    +#+  +:+       +#+        */
+/*   By: carmoren < carmoren@student.42barcelona    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/11 11:07:25 by dtome-pe          #+#    #+#             */
-/*   Updated: 2023/05/16 17:32:34 by theonewhokn      ###   ########.fr       */
+/*   Updated: 2023/08/27 13:30:13 by carmoren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -122,7 +122,7 @@ int main(void)
 {   
     char *line;
 	int fd;
-	char c = 0;
+	//char c = 0;
 
 	fd = open("1char.txt", O_RDONLY);
 	
