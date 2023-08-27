@@ -6,7 +6,7 @@
 /*   By: carmoren < carmoren@student.42barcelona    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/11 11:07:25 by dtome-pe          #+#    #+#             */
-/*   Updated: 2023/08/27 13:30:13 by carmoren         ###   ########.fr       */
+/*   Updated: 2023/08/27 13:32:11 by carmoren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -117,7 +117,7 @@ char	*get_next_line(int fd)
 			return (line = create_nullstring(&tmp, line));
 	}
 }
-/*
+
 int main(void)
 {   
     char *line;
@@ -138,4 +138,3 @@ int main(void)
 	//printf("%s", line);
 
 }
-*/
